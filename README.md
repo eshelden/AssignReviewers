@@ -13,12 +13,12 @@ are no conflicts, the "No Conflicts" check box should be checked to
 prevent the program from looking for the conflicts file.
 
 Operation:
-Specificy the directory to find the input files and the number of reviews to
+Specify the directory to find the input files and the number of reviews to
 assign each application. The output file "Results.csv" will also be written 
 to the chosen directory. The absolute maximum number of assignments/reviewer
 should be specified. The app will use the smaller of this value or any value 
 included for a reviewer in the "Reviewers.csv" file. "Tries" is the number 
-of attempts the app will make to find a reviewer that meets all criteria 
+of attempts the program will make to find a reviewer that meets all criteria 
 without giving up.
 
 It is possible to specify criteria that require several runs before a
