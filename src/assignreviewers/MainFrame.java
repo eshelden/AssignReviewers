@@ -27,7 +27,7 @@ import javax.swing.JFileChooser;
 
 /**
  *
- * @author idaho
+ * @author Eric Shelden
  */
 
 public class MainFrame extends javax.swing.JFrame {
@@ -479,15 +479,7 @@ private void InitVariables(){
                mReviewers[tReviewerID].nAssignments ++;
                return(rName); 
             }
-
-//            if (NoConflicts(rName,applicant)){
-//                if(mReviewers[tReviewerID].nAssignments < mReviewers[tReviewerID].max){
-//                    if (NoRepeat(rName, tReviewerID, applicantID, nReviews)) {
-//                        mReviewers[tReviewerID].nAssignments = mReviewers[tReviewerID].nAssignments + 1;
-//                        return(rName);
-//                    }
-//                }
-//            } // finished all checking
+		
             if (myTries == nTries){
                 done = true;
             }
@@ -498,7 +490,7 @@ private void InitVariables(){
     private boolean NoRepeat(String reviewer, int reviewerID, int ApplicantID, int nReviews){
         String applicantName = mApplicants.get(ApplicantID).toString();
         String tReviewerName = mReviewers[reviewerID].name;
-        //int nAssigned = mReviewers[reviewerID].nAssignments; //number of existing assignments
+	    
         int nAssigned = GetNumberOfAssignedReviewers(ApplicantID);
         //System.out.println("NR" + " " + reviewer + " " + Integer.toString(reviewerID) + " " + Integer.toString(ApplicantID) + " " + Integer.toString(nReviews));
         if (nAssigned == 0){ // no reviews assigned yet
