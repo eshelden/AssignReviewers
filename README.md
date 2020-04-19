@@ -26,5 +26,5 @@ solution is found. It is also possible to specify criteria that have
 no possible solution.
 
 If a solution is found, a preview will be produced in the text box and
-the results will be written to a file called "Results.csv"
+the results will be written to a file called "Results.csv".
 The program will overwrite any existing results file without asking.
