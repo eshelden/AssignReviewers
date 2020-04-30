@@ -1,5 +1,7 @@
 # AssignReviewers
-A java application that randomly assigns reviewers to applications
+A java application that randomly assigns reviewers to applications. The .jar
+file is a standalone executable application that can be downloaded and used
+or you can download the source code and build your own application.
 
 The program accepts 2-3 .csv files, minimally a file of applicant names and
 a file of reviewer names with one name per line, called "Applicants.csv" and 
